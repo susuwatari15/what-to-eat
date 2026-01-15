@@ -87,7 +87,7 @@ export default function Home() {
 					{/* Header */}
 					<div className="text-center mb-8">
 						<h1 className="text-5xl md:text-7xl font-heading font-bold text-primary mb-9">
-							{language === "vi" ? "Ăn Gì Bây Giờ?" : "What to Eat?"}
+							{language === "vi" ? "Ăn gì cũng được!" : "What to eat?"}
 						</h1>
 						<p className="text-lg text-muted-foreground font-sans">
 							{language === "vi"
