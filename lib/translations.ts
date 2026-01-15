@@ -22,6 +22,8 @@ export const translations = {
     dishesAvailable: "dishes available",
     notFeeling: "Not feeling it? Click again to get another suggestion!",
     loadingCollections: "Loading collections...",
+    designedBy: "Designed by",
+    licensedUnder: "Licensed under MIT License",
   },
   vi: {
     title: "Ăn Gì Bây Giờ?",
@@ -46,6 +48,8 @@ export const translations = {
     dishesAvailable: "món ăn có sẵn",
     notFeeling: "Không thích? Bấm lại để chọn món khác!",
     loadingCollections: "Đang tải bộ sưu tập...",
+    designedBy: "Thiết kế bởi",
+    licensedUnder: "Giấy phép MIT License",
   },
 } as const
 

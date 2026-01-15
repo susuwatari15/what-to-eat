@@ -4,7 +4,11 @@ import { useState, useEffect } from "react";
 import { CollectionManager } from "@/components/collection-manager";
 import { DishPicker } from "@/components/dish-picker";
 import { LanguageSwitcher } from "@/components/language-switcher";
-import { getDefaultLanguage, type Language } from "@/lib/translations";
+import {
+	getDefaultLanguage,
+	translate,
+	type Language,
+} from "@/lib/translations";
 
 export default function Home() {
 	const [collections, setCollections] = useState<Record<string, string[]>>({});
@@ -113,6 +117,17 @@ export default function Home() {
 							/>
 						</div>
 					</div>
+
+					{/* Footer */}
+					<footer className="mt-12 pt-6 border-t border-border/50">
+						<div className="text-center text-sm text-muted-foreground">
+							<p>
+								{translate(language, "designedBy")}{" "}
+								<span className="font-medium text-foreground">thuannc</span>
+							</p>
+							<p className="mt-1">{translate(language, "licensedUnder")}</p>
+						</div>
+					</footer>
 				</div>
 			</div>
 
